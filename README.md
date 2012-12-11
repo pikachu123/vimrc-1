@@ -1,19 +1,17 @@
-vgod's vimrc
+Pika's Vimrc
 ============
-Author: Tsung-Hsiang (Sean) Chang <vgod@vgod.tw>
-
-Fork me on GITHUB  https://github.com/vgod/vimrc.
+Author: pikachu123
 
 ONE-STEP INSTALL
 ----------------
 
 Use curl (for Mac OS X):
 
-     curl -o - https://raw.github.com/vgod/vimrc/master/auto-install.sh | sh
+     curl -o - https://raw.github.com/pikachu123/vimrc-1/master/auto-install.sh | sh
 
 or wget (for most UNIX platforms):
 
-     wget -O - https://raw.github.com/vgod/vimrc/master/auto-install.sh | sh
+     wget -O - https://raw.github.com/pikachu123/vimrc-1/master/auto-install.sh | sh
 
 
 MANUALLY INSTALL
@@ -21,7 +19,7 @@ MANUALLY INSTALL
 
 1. Check out from github
 
-        git clone git://github.com/vgod/vimrc.git ~/.vim
+        git clone git://github.com/pikachu123/vimrc-1.git ~/.vim
         cd ~/.vim
         git submodule update --init
 
@@ -42,7 +40,7 @@ MANUALLY INSTALL ON WINDOWS
 
         cd C:\Program Files\Vim   (or your installed path to Vim)
         rmdir /s vimfiles         (This deletes your old vim configurations. If you want to keep it, use move instead of rmdir.)
-        git clone git://github.com/vgod/vimrc.git vimfiles
+        git clone git://github.com/pikachu123/vimrc-1.git vimfiles
         git submodule update --init
 
 2. Install vimrc. Add the following line at the end of C:\Program Files\Vim\vimrc.
@@ -160,19 +158,3 @@ Vim Visual Cheat Sheet
 
 I've compiled and plotted a Vim Cheat Sheet for beginners. 
 Welcome to download and learn Vim with it.
-
-![My Vim Visual Cheat Sheet](http://people.csail.mit.edu/vgod/vim/vim-cheat-sheet-en.png "My Vim Visual Cheat Sheet")
-
-* [Vim Visual Cheat Sheet (PNG)](http://people.csail.mit.edu/vgod/vim/vim-cheat-sheet-en.png)
-* [Vim Visual Cheat Sheet (PDF)](http://people.csail.mit.edu/vgod/vim/vim-cheat-sheet-en.pdf)
-* [Vim入門圖解 Chinese Ver. (PNG)](http://blog.vgod.tw/wp-content/uploads/2009/12/vim-cheat-sheet-full.png)
-* [Vim入門圖解 Chinese Ver. (PDF)](http://blog.vgod.tw/wp-content/uploads/2009/12/vgod-vim-cheat-sheet-full.pdf)
-
-These Vim Visual Cheat Sheets are released under [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
-
-
-License
--------
-
-This vimrc project is released under [Creative Commons Attribution-ShareAlike 3.0 Unported License](http://creativecommons.org/licenses/by-sa/3.0/deed.en_US).
-
